@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ideas - Where all our great things begin</title>
+    <link rel="stylesheet" href="Project.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a href="#work">Work</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#ideas" class="active">Ideas</a>
+            <a href="#careers">Careers</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <div class="banner-image-container">
+            <img src="../img/banner.png" alt="Banner" class="banner-image">
+        </div>
+        <div class="banner-content">
+            <h1>Ideas</h1>
+            <p>Where all our great things begin</p>
+        </div>
+    </section>
+
+    <div class="controls">
+        <div class="showing">
+            Showing 1-10 of 100
+        </div>
+        <div class="filters">
+            <select id="perPage">
+                <option value="10">10</option>
+                <option value="20">20</option>
+                <option value="50">50</option>
+            </select>
+            <select id="sort">
+                <option value="newest">Newest</option>
+                <option value="oldest">Oldest</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="grid">
+        <!-- Cards will be dynamically generated here -->
+    </div>
+
+    <div class="pagination">
+        <!-- Pagination will be dynamically generated here -->
+    </div>
+
+    <script src="Project.js"></script>
+</body>
+</html>
